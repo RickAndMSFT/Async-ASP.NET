@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Mvc4Async.Models.Gizmo>
+
+@{
+    ViewBag.Title = "Gizmos";
+}
+
+<h2>@ViewBag.Title  @ViewBag.SyncOrAsync</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+           Introduced 
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IntroducedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+
+    </tr>
+}
+
+</table>

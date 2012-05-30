@@ -1,0 +1,27 @@
+﻿@{    
+    Layout =null;
+    }
+
+       <br />
+<h3>All Products Widgets Gizmos</h3>
+      @Html.ActionLink("Async PWG ", "PWGasync") &nbsp;||&nbsp;
+     @Html.ActionLink("Sync PWG", "PWG") &nbsp;||&nbsp;
+
+        </div>
+    <div>
+        <h3> Asynchronous Versions</h3>
+              @Html.ActionLink("Widgets Async", "WidgetsAsync") &nbsp;||&nbsp;
+       @Html.ActionLink("Gizmos Async", "GizmosAsync") &nbsp;||&nbsp;
+        @Html.ActionLink("Products Async", "ProductsAsync") 
+    </div>
+        <div>
+        <h3> Synchronous Versions</h3>
+       @Html.ActionLink("Sync Widgets", "Widgets") &nbsp;||&nbsp;
+       @Html.ActionLink("Sync Gizmos", "Gizmos") &nbsp;||&nbsp;
+        @Html.ActionLink("Sync Products", "Products") 
+    </div>
+<div>
+         @Html.ActionLink("Gizmos Cancellation Token", "GizmosCancelAsync")  &nbsp;||&nbsp;
+     @Html.ActionLink("PWGtimeOut Cancellation", "PWGtimeOut") 
+</div>
+   
