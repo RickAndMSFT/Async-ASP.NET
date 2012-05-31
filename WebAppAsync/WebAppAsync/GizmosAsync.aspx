@@ -12,7 +12,8 @@
     <div>
         <asp:GridView ID="GizmosGridView" runat="server" AutoGenerateColumns="true" ItemType="WebAppAsync.Models.Gizmos"></asp:GridView>
         <br />
-   
+           <br />
+        <a id="A1" runat="server" href="~/">Home</a>
     </div>
     </form>
 </body>

@@ -13,6 +13,8 @@
         <br />
     
     </div>
+                <br />
+        <a id="A1" runat="server" href="~/">Home</a>
     </form>
 </body>
 </html>

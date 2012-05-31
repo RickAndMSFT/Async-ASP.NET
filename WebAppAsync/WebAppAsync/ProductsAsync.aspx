@@ -12,6 +12,8 @@
          <asp:GridView ID="ProductGridView" runat="server" AutoGenerateColumns="true" ItemType="WebAppAsync.Models.Product"></asp:GridView>
    
     </div>
+                <br />
+        <a id="A1" runat="server" href="~/">Home</a>
     </form>
 </body>
 </html>

@@ -15,6 +15,8 @@
         <br />
         <asp:Label ID="ElapsedTimeLabel" runat="server" Text="Label"></asp:Label>
     </div>
+                <br />
+        <a id="A1" runat="server" href="~/">Home</a>
     </form>
 </body>
 </html>
