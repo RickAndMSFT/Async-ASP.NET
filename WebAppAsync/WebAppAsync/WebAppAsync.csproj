@@ -130,7 +130,7 @@
     <Content Include="Content\themes\base\jquery.ui.slider.css" />
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
-    <Content Include="Gismos.aspx" />
+    <Content Include="Gizmos.aspx" />
     <Content Include="GizmosAsync.aspx" />
     <Content Include="GizmosCancelAsync.aspx" />
     <Content Include="Images\accent.png" />
@@ -195,7 +195,9 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -264,12 +266,12 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Gismos.aspx.cs">
-      <DependentUpon>Gismos.aspx</DependentUpon>
+    <Compile Include="Gizmos.aspx.cs">
+      <DependentUpon>Gizmos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Gismos.aspx.designer.cs">
-      <DependentUpon>Gismos.aspx</DependentUpon>
+    <Compile Include="Gizmos.aspx.designer.cs">
+      <DependentUpon>Gizmos.aspx</DependentUpon>
     </Compile>
     <Compile Include="GizmosAsync.aspx.cs">
       <DependentUpon>GizmosAsync.aspx</DependentUpon>

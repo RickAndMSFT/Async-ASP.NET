@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Gismos.aspx.cs" Inherits="WebAppAsync.Gismos" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Gizmos.aspx.cs" Inherits="WebAppAsync.Gismos" %>
 
 <!DOCTYPE html>
 

@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
         <h1>Gizmos Async</h1>
     <div>
-        <asp:GridView ID="GizmosGridView" runat="server" AutoGenerateColumns="true" ItemType="WebAppAsync.Models.Gizmos"></asp:GridView>
+        <asp:GridView ID="GizmosGridView" runat="server" AutoGenerateColumns="true" ItemType="WebAppAsync.Models.Gizmo"></asp:GridView>
         <br />
            <br />
         <a id="A1" runat="server" href="~/">Home</a>

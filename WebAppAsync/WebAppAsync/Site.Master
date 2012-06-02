@@ -72,7 +72,7 @@
                     <ul id="Ul1">
                         <li><a  runat="server" href="~/Products.aspx">Products</a></li>
                         <li><a runat="server" href="~/Widgets.aspx">Widgets</a></li>
-                        <li><a runat="server" href="~/Gismos.aspx">Gizmos</a></li>
+                        <li><a runat="server" href="~/Gizmos.aspx">Gizmos</a></li>
                     </ul>
                      <ul id="Ul2">
                         <li><a runat="server" href="~/ProductsAsync.aspx">ProductsAsync</a></li>
