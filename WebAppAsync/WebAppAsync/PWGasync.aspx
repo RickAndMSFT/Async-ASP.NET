@@ -9,9 +9,13 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <h2>Asynchronous Widgets, Products, and Gizmos</h2>
+        <h3>Widgets</h3>
         <asp:GridView ID="WidgetGridView" runat="server" AutoGenerateColumns="true" ItemType="WebAppAsync.Models.Widget"></asp:GridView>
+        <h3>Products</h3>
         <asp:GridView ID="ProductGridView" runat="server" AutoGenerateColumns="true" ItemType="WebAppAsync.Models.Product"></asp:GridView>
-        <asp:GridView ID="GizmoGridView" runat="server" AutoGenerateColumns="true" ItemType="WebAppAsync.Models.Gizmo"></asp:GridView>
+       <h3>Gizmos</h3>
+         <asp:GridView ID="GizmoGridView" runat="server" AutoGenerateColumns="true" ItemType="WebAppAsync.Models.Gizmo"></asp:GridView>
         <br />
         <asp:Label ID="ElapsedTimeLabel" runat="server" Text="Label"></asp:Label>
     </div>

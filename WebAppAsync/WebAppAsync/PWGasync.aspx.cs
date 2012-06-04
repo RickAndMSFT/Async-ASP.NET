@@ -14,7 +14,6 @@ namespace WebAppAsync
         protected void Page_Load(object sender, EventArgs e)
         {
             stopWatch.Start();
-
             RegisterAsyncTask(new PageAsyncTask(GetPWGsrvAsync));
         }
 
@@ -44,9 +43,8 @@ namespace WebAppAsync
             GizmoGridView.DataBind();
 
             stopWatch.Stop();
-            ElapsedTimeLabel.Text = String.Format("Elapsed time: {0}", stopWatch.Elapsed.Milliseconds / 1000.0);
-
-
+            ElapsedTimeLabel.Text = String.Format("Elapsed time: {0}", 
+                stopWatch.Elapsed.Milliseconds / 1000.0);
         }
     }
 }
