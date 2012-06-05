@@ -9,7 +9,6 @@ namespace WebAppAsync
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
             RegisterAsyncTask(new PageAsyncTask(GetProductSrvAsync));
         }
 

@@ -8,13 +8,16 @@ using WebAppAsync.Models;
 namespace WebAppAsync
 {
     public partial class PWGasync : System.Web.UI.Page
-    {
-        private Stopwatch stopWatch = new Stopwatch();
+    {     
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
             RegisterAsyncTask(new PageAsyncTask(GetPWGsrvAsync));
+            stopWatch.Stop();
+            ElapsedTimeLabel.Text = String.Format("Elapsed time: {0}",
+                stopWatch.Elapsed.Milliseconds / 1000.0);
         }
 
         private async Task GetPWGsrvAsync()
@@ -40,11 +43,7 @@ namespace WebAppAsync
             ProductGridView.DataSource = pwgVM.prodList;
             ProductGridView.DataBind();
             GizmoGridView.DataSource = pwgVM.gizmoList;
-            GizmoGridView.DataBind();
-
-            stopWatch.Stop();
-            ElapsedTimeLabel.Text = String.Format("Elapsed time: {0}", 
-                stopWatch.Elapsed.Milliseconds / 1000.0);
+            GizmoGridView.DataBind();           
         }
     }
 }
