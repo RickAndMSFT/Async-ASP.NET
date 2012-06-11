@@ -68,6 +68,7 @@
                         <li><a runat="server" href="~/PWGasync.aspx">PWGasync</a></li>
                         <li><a runat="server" href="~/PWG.aspx">PWG</a></li>
                         <li><a runat="server" href="~/GizmosCancelAsync.aspx">GizmosCancelAsync</a></li>
+                        <li><a id="A1" runat="server" href="~/GizmosCancelBtnAsync.aspx">GizmosCancelBtnAsync</a></li>
                     </ul>
                     <ul id="Ul1">
                         <li><a  runat="server" href="~/Products.aspx">Products</a></li>

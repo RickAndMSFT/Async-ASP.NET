@@ -16,7 +16,7 @@ namespace WebAppAsync
         private async Task GetGizmosSvcCancelAsync(CancellationToken cancellationToken)
         {
             var gizmoService = new GizmoService();
-            var gizmoList = await gizmoService.GetGizmosAsync();
+            var gizmoList = await gizmoService.GetGizmosAsync(cancellationToken);
             GizmosGridView.DataSource = gizmoList;
             GizmosGridView.DataBind();
         }
